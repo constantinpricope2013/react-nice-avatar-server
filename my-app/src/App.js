@@ -113,13 +113,13 @@ const App = () => {
     return (
       <div>
       <Helmet>
-        <meta name="og.image" content={urlimage} />
+        <meta property="og.image" content={urlimage} />
       </Helmet>
       <div id='myAvatar'>
         <Avatar style={{ width: '8rem', height: '8rem' }} {...config} />
       </div>
       <div>
-        <img id='image' src={urlimage} />
+        <img id='image' src={urlimage} type="image"/>
       </div>
       </div>
     );
