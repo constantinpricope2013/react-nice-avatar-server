@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Avatar, { genConfig } from 'react-nice-avatar';
 import { saveAs } from "file-saver";
 import domtoimage from "dom-to-image";
+import { Helmet } from "react-helmet"
 // import fs-react from 'fs-react';
 
 const App = () => {
@@ -111,6 +112,9 @@ const App = () => {
 
     return (
       <>
+      <Helmet>
+        <meta name="og.image" content={urlimage} />
+      </Helmet>
       <div id='myAvatar'>
         <Avatar style={{ width: '8rem', height: '8rem' }} {...config} />
       </div>
