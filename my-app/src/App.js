@@ -113,7 +113,6 @@ const App = () => {
     return (
       <div>
       <Helmet>
-        <meta name="og.type" content='image/png' />
         <meta name="og.image" content={urlimage} />
       </Helmet>
       <div id='myAvatar'>
