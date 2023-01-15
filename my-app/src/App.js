@@ -10,7 +10,7 @@ const App = () => {
   let { eye, ear, background, wear, nose, skin, hair, smile } = useParams();
 
   const [image, setImage] = useState();
-  const [urlimage, setUrlImage] = useState();
+  const [urlimage, setUrlImage] = useState('avatar.png');
   const [loading, setLoading] = useState(true);
 
   console.log(useParams())
