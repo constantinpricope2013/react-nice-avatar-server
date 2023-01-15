@@ -109,21 +109,16 @@ const App = () => {
   }, []);
 
 
-  if( loading == true)
-  {
     return (
-      
+      <>
       <div id='myAvatar'>
         <Avatar style={{ width: '8rem', height: '8rem' }} {...config} />
       </div>
+      <div>
+        <img id='image' src={urlimage} />
+      </div>
+      </>
     );
-  }
-  else
-  {
-    return (
-         <img id='image' src={urlimage} /> 
-    );
-  }
 
 }
 
