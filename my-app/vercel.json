@@ -1,0 +1,10 @@
+{
+    "headers": 
+    [
+        {
+
+          "key" : "Content-Type",
+          "value" : "image/png"
+        }
+    ]
+}

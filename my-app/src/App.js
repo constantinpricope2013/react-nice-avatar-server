@@ -62,7 +62,7 @@ const App = () => {
                              shirtStyle : wear,
                              noseStyle : nose,
                              faceColor : skin,
-                             airStyle : hair,
+                             hairStyle : hair,
                              mouthStyle : smile,
                              glassesStyle: 'none',
                              bgColor: 'grey',
