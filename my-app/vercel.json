@@ -2,8 +2,12 @@
     "headers": 
     [
         {
-
-          "Content-Type":"image/png"
+            "headers" : [
+                {
+                    "key": "Content-Type",
+                    "value": "image/png"
+                }
+            ]
         }
     ]
 }
