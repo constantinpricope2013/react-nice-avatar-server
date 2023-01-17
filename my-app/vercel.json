@@ -2,6 +2,7 @@
     "headers": 
     [
         {
+            "source" : "*",
             "headers" : [
                 {
                     "key": "Content-Type",
